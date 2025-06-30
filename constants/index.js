@@ -18,58 +18,59 @@ const navLinks = [
    ];
    
    const cocktailLists = [
-    {
-       name: "Chapel Hill Shiraz",
-       country: "AU",
-       detail: "Battle",
-       price: "$10",
-    },
-    {
-       name: "Caten Malbee",
-       country: "AU",
-       detail: "Battle",
-       price: "$49",
-    },
-    {
-       name: "Rhino Pale Ale",
-       country: "CA",
-       detail: "750 ml",
-       price: "$20",
-    },
-    {
-       name: "Irish Guinness",
-       country: "IE",
-       detail: "600 ml",
-       price: "$29",
-    },
-   ];
-   
-   const mockTailLists = [
-    {
-       name: "Tropical Bloom",
-       country: "US",
-       detail: "Battle",
-       price: "$10",
-    },
-    {
-       name: "Passionfruit Mint",
-       country: "US",
-       detail: "Battle",
-       price: "$49",
-    },
-    {
-       name: "Citrus Glow",
-       country: "CA",
-       detail: "750 ml",
-       price: "$20",
-    },
-    {
-       name: "Lavender Fizz",
-       country: "IE",
-       detail: "600 ml",
-       price: "$29",
-    },
-   ];
+      {
+        name: "Chapel Hill Shiraz",
+        country: "AU",
+        detail: "Battle",
+        price: "₹830",
+      },
+      {
+        name: "Caten Malbee",
+        country: "AU",
+        detail: "Battle",
+        price: "₹4,067",
+      },
+      {
+        name: "Rhino Pale Ale",
+        country: "CA",
+        detail: "750 ml",
+        price: "₹1,660",
+      },
+      {
+        name: "Irish Guinness",
+        country: "IE",
+        detail: "600 ml",
+        price: "₹2,407",
+      },
+    ];
+    
+    const mockTailLists = [
+      {
+        name: "Tropical Bloom",
+        country: "US",
+        detail: "Battle",
+        price: "₹830",
+      },
+      {
+        name: "Passionfruit Mint",
+        country: "US",
+        detail: "Battle",
+        price: "₹4,067",
+      },
+      {
+        name: "Citrus Glow",
+        country: "CA",
+        detail: "750 ml",
+        price: "₹1,660",
+      },
+      {
+        name: "Lavender Fizz",
+        country: "IE",
+        detail: "600 ml",
+        price: "₹2,407",
+      },
+    ];
+    
    
    const profileLists = [
     {
@@ -102,7 +103,7 @@ const navLinks = [
    
    const storeInfo = {
     heading: "Where to Find Us",
-    address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
+    address: "102, Marine Drive, Churchgate, Mumbai, Maharashtra 400020",
     contact: {
        phone: "(555) 987-6543",
        email: "hello@jsmcocktail.com",
@@ -149,7 +150,7 @@ const navLinks = [
        image: "/images/drink2.png",
        title: "A Zesty Classic That Never Fails",
        description:
-        "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+        "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it's always crisp & refreshing.",
     },
     {
        id: 3,
